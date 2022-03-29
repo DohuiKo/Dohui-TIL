@@ -1,13 +1,6 @@
 const { description } = require('../../package')
 
 module.exports = {
-  plugins: [
-    'reading-progress',
-    '@vuepress/plugins-back-to-top',
-    // ... 플러그인 등록
-  ]
-  }
-  
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
@@ -79,5 +72,7 @@ module.exports = {
   plugins: [
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
+    'reading-progress',
+    '@vuepress/plugins-back-to-top',
   ]
 }
