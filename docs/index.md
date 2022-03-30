@@ -11,5 +11,5 @@ features:
   details: JSX
 - title: Django
   details: OAuth
-footer: Made by  with ❤️
+footer: Made by  with ❤️ Dohui
 ---
